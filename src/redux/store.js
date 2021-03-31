@@ -3,9 +3,12 @@
  */
 
 //引入createStore创建store
-import { createStore } from 'redux'
+// import { createStore } from 'redux'
 //引入为count服务的reducer
-import countReducer from './count_reducer'
+// import countReducer from './count_reducer'
 //暴露store
-export default createStore(countReducer);
+// export default createStore(countReducer);
 
+import {createStore} from 'redux'
+import countReducer from "./count_reducer";
+export default createStore(countReducer);
